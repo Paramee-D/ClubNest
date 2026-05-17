@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
+import cors from "cors";
 
 import clubRoute from "./Route/clubRoute.js";
 import recruitmentRoute from "./Route/recruitmentRoute.js";
@@ -9,6 +10,7 @@ import applicationRoute from "./Route/applicationRoute.js";
 
 const app = express();
 
+app.use(cors({ origin: "http://localhost:3000" }));
 app.use(bodyParser.json());
 
 dotenv.config();
