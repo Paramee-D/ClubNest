@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ClubNest 🏛️
 ### "Find Your Community. Join Your Club."
 
@@ -215,3 +216,6 @@ Open Postman and start testing the endpoints listed above.
 - **Index:** [Your Index Number]
 - **Module:** IT2234 - Web Services and Technology
 - **Level:** 2nd Year IT
+=======
+# ClubNest
+>>>>>>> 45873198ad7c1c9a4acea732f8c614c7754a5182
